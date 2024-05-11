@@ -1,6 +1,8 @@
 public class BankProgram {
     public static void main(String[] args) {
-
+        BankSimulation bankSimulation = new BankSimulation(10);
+        bankSimulation.simulate();
+        System.out.println(bankSimulation);
 
     }
     public static void CheckProgram(){
